@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding:0;
+
+}
+
+#first{
+	font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+	font-variant: small-caps;
+	font-size: 38px;
+	font-style: italic;
+	letter-spacing: 2px;
+	word-spacing: 13px;
+	font-weight: lighter;
+	direction: ltr;
+	text-indent: 50px;
+}
+#second{
+	text-indent: 165px;
+	padding: 20px;
+	margin: 20px;
+	/*text-transform: capitalize;*/
+	/*text-transform: lowercase;
+	text-transform: uppercase;*/
+}
+
+.set{
+	width: 100%;
+	height: 80vh;
+	background-color:maroon;
+	background-image: url(ContinuosMiner.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+
+}
+
+.set1{
+	width: 100%;
+	height: 80vh;
+	background-color:maroon;
+	background-image: url(DO.jpg);
+	background-repeat: repeat-y;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+
+}
+
+a:link{
+	color: red;
+}
+
+a:visited{
+	color: green;
+}
+
+a:hover{
+	color: yellow;
+}
+
+a:active{
+	color: blue;
+}
+
+.bordercss{
+	width: 500px;
+	height: 200px;
+	border-radius: 20px;
+	background-color: red;
+	border-width: 2px;
+	padding: 15px;
+	border-color: black;
+	/*border-style: dashed;
+	border-style: solid;*/
+	border-style: solid;
+}
+
+ul{
+	/*list-style-type: square;*/
+	list-style-type: none;
+	direction: rtl;
+}
+
+li{
+	/*display: inline;*/
+	display: inline-block;
+	/*border:1px solid black;*/
+	padding: 0 10px;
+
+}
+
+#text{
+	width: 300px;
+	height: 300px;
+	padding: 10px;
+	border:1px solid red;
+	/*overflow: hidden;*/
+	overflow: auto;
+	/*overflow: scroll;*/
+}
+
+.father{
+	width: 600px;
+	height: 300px;
+	background-color: red;
+	position: relative;
+}
+
+.child1{
+	width: 100px;
+	height: 70px;
+	background-color: green;
+	position: absolute;
+	left: 0;
+}
+
+.child2{
+	width: 100px;
+	height: 70px;
+	background-color: orange;
+	position: absolute;
+	right: 0;
+}
+
+.child3{
+	width: 100px;
+	height: 70px;
+	background-color: yellow;
+	position: absolute;
+	bottom: 0;
+
+}
+
+.child4{
+	width: 100px;
+	height: 70px;
+	background-color: maroon;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.header{
+	width: 100%;
+	height: 80px;
+	background-color: black;
+}
+
+.logo{
+	width: 30%;
+	line-height: 80px;
+	text-align: center;
+	background-color: orange;
+	float: left;
+}
+
+.menu{
+	width: 70%;
+	line-height: 80px;
+	background-color: red;
+	float: right;
+}
