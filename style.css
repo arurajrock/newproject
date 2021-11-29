@@ -1,163 +1,90 @@
 *{
 	margin: 0;
-	padding:0;
-
-}
-
-#first{
-	font-family: 'Josefin Sans', sans-serif;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
     font-family: 'Orbitron', sans-serif;
-	font-variant: small-caps;
-	font-size: 38px;
-	font-style: italic;
-	letter-spacing: 2px;
-	word-spacing: 13px;
-	font-weight: lighter;
-	direction: ltr;
-	text-indent: 50px;
-}
-#second{
-	text-indent: 165px;
-	padding: 20px;
-	margin: 20px;
-	/*text-transform: capitalize;*/
-	/*text-transform: lowercase;
-	text-transform: uppercase;*/
+	
 }
 
-.set{
+header{
 	width: 100%;
-	height: 80vh;
-	background-color:maroon;
-	background-image: url(ContinuosMiner.jpg);
+	height: 100vh;
+	background-image: url('bg.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	background-attachment: fixed;
-
 }
 
-.set1{
+.mainheader{
 	width: 100%;
-	height: 80vh;
-	background-color:maroon;
-	background-image: url(DO.jpg);
-	background-repeat: repeat-y;
-	background-size: 100% 100%;
-	background-attachment: fixed;
-
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-a:link{
-	color: red;
+.mainheader .logodeg img{
+	width: 150px;
+	height: 150px;
+	padding-left: 20px;
+}
+.mainheader nav{
+	width: 450px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.mainheader nav a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
 }
 
-a:visited{
-	color: green;
-}
-
-a:hover{
-	color: yellow;
-}
-
-a:active{
-	color: blue;
-}
-
-.bordercss{
-	width: 500px;
-	height: 200px;
-	border-radius: 20px;
-	background-color: red;
-	border-width: 2px;
-	padding: 15px;
-	border-color: black;
-	/*border-style: dashed;
-	border-style: solid;*/
-	border-style: solid;
-}
-
-ul{
-	/*list-style-type: square;*/
-	list-style-type: none;
-	direction: rtl;
-}
-
-li{
-	/*display: inline;*/
-	display: inline-block;
-	/*border:1px solid black;*/
-	padding: 0 10px;
-
-}
-
-#text{
-	width: 300px;
-	height: 300px;
-	padding: 10px;
-	border:1px solid red;
-	/*overflow: hidden;*/
-	overflow: auto;
-	/*overflow: scroll;*/
-}
-
-.father{
-	width: 600px;
-	height: 300px;
-	background-color: red;
-	position: relative;
-}
-
-.child1{
-	width: 100px;
-	height: 70px;
-	background-color: green;
-	position: absolute;
-	left: 0;
-}
-
-.child2{
-	width: 100px;
-	height: 70px;
-	background-color: orange;
-	position: absolute;
-	right: 0;
-}
-
-.child3{
-	width: 100px;
-	height: 70px;
-	background-color: yellow;
-	position: absolute;
-	bottom: 0;
-
-}
-
-.child4{
-	width: 100px;
-	height: 70px;
-	background-color: maroon;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-}
-
-.header{
-	width: 100%;
-	height: 80px;
-	background-color: black;
-}
-
-.logo{
-	width: 30%;
-	line-height: 80px;
+.mainheader button{
+	padding: 10px 45px;
+	color: 	#fff;
 	text-align: center;
-	background-color: orange;
-	float: left;
+	border:none;
+	border-radius: 15px;
+	background-color: #000;
+	font-size: 15px;
+	margin-right: 20px;
+
 }
 
-.menu{
-	width: 70%;
-	line-height: 80px;
-	background-color: red;
-	float: right;
+main{
+    width: 100%;
+	/*height: 100px;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#delset{
+	width: 350px;
+	height: 250px;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+main .left{
+	padding-left: 50px;
+}
+
+#btn{
+	padding: 10px 45px;
+	color: 	#fff;
+	text-align: center;
+	border:none;
+	border-radius: 15px;
+	background-image: linear-gradient(to right, red , yellow);
+	font-size: 15px;
+	margin-right: 20px;
+}
+
+#Enjoy{
+	margin-left: 2px;
+	font-size: 14;
+	font-weight: lighter;
+	margin-top: 10px;
 }
